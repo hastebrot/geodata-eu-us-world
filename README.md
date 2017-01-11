@@ -28,10 +28,16 @@ A small collection of EU, US, and world shapefiles.
 
 ## Coordinate Systems
 
-- GISCO (NUTS)
+- World (countries)
+  - Geodetic (suggestion): WGS84 ([EPSG:4326](http://epsg.io/4326))
+  - Projected (suggestion): WGS84 / Pseudo-Mercator  ([EPSG:3857](http://epsg.io/3857))
+  - Projected (suggestion): World Miller Cylindrical ([ESPG:54003](http://epsg.io/54003))
+
+- European Union (statistical units)
   - Geodetic: ETRS89 ([EPSG:4258](https://epsg.io/4258))
   - Projected (suggestion): ETRS Lambert Azimuthal Equal Area ([EPSG:3035](https://epsg.io/3035))
-- TIGER (States)
+
+- United States (states)
   - Geodetic: NAD83 ([EPSG:4269](https://epsg.io/4269))
   - Projected (suggestion): US National Atlas Equal Area ([EPSG:2163](https://epsg.io/2163))
 
